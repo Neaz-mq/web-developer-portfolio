@@ -289,7 +289,36 @@ footer{
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px){
+    .header{
+        background-image: none;
+        margin: 0;
+        padding: 0; 
+        background-color: #ffffff;
+    }
 
+    .btn-primary{
+        border-radius: 5px;
+        background: #FD6E0A;
+        border: 0;
+        font-size: 15px;
+        font-weight: 700;
+        color: white;
+        padding: 15px 25px;
+        margin-right: 10px;
+        margin-left: -20px;
+       
+       
+    }
+    .about{
+        
+        border-radius: 10px;
+        background: #FFF8F3;
+         margin-top: 100px;
+         margin-left: 90px;
+         margin-right: -50px;
+         padding-left: 100px;
+    }
+   
     footer{
         padding: 30px;
     }
