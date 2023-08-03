@@ -8,11 +8,11 @@ body {
     padding: 0;
 }
 
-.text-primary{
+.text-primary {
     color: #ff8b07ec;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -20,19 +20,18 @@ body {
     font-weight: 700;
     color: white;
     padding: 15px 35px;
-   
-   
+
 }
 
-.section-title{
-    color:  #181818;
+.section-title {
+    color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
 
-.section-description{
-    color:  #757575;
+.section-description {
+    color: #757575;
     text-align: center;
     font-size: 18px;
     margin-top: -10px;
@@ -41,167 +40,170 @@ body {
 
 /* Nav Related Styles */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 155px;
 }
 
-.site-title{
+.site-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
 
     align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 10px;
     margin-left: 65px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #4c4c4c;
 }
 
 /* Header related styles */
 
-.header{
+.header {
     background-color: #fff8f3e0;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
-  
+
 }
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner .profile-pic{
+.banner .profile-pic {
     width: 500px;
-  
+
 }
 
-.banner-gretting{
+.banner-gretting {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
 }
 
-.banner-title{
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 
-.banner-content{
+.banner-content {
     max-width: 500px;
 }
 
 /* main section styles */
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-main section{
+main section {
     margin-top: 130px;
 }
 
 /* about section styles */
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
 
 /* skills related styles */
 
-.skills-container{
+.skills-container {
     display: flex;
     gap: 24px;
 }
 
-.skill{
+.skill {
     padding: 30px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
-.skill-description{
+.skill-description {
 
-    color:  #757575;
-    
+    color: #757575;
+
 }
 
-#what-i-do-description{
+#what-i-do-description {
     padding: 30px 150px;
 }
 
 /* Resume Section styles */
 
-.resume-column-title{
-    color:  #474747;  
-    font-size: 30px;  
-    font-weight: 700;  
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
     margin-bottom: 10px;
 }
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 50px;
 }
 
-.resume-container hr{
+.resume-container hr {
     margin: 30px;
 }
 
-.resume-item-title{
+.resume-item-title {
     color: #757575;
     font-size: 25px;
     font-weight: 700;
 
 }
 
-.resume-item-institute{
+.resume-item-institute {
     margin-bottom: 20px;
     margin-top: 0px;
 }
 
-.resume-item-institute, .resume-item-description{
-color: #757575;
+.resume-item-institute,
+.resume-item-description {
+    color: #757575;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
 
 /* Footer */
 
-footer{
+footer {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
@@ -209,26 +211,28 @@ footer{
     padding: 130px 200px;
 }
 
-.footer-column{
-    width:50%;
+.footer-column {
+    width: 50%;
 }
 
-.social-links{
+.social-links {
     text-align: center;
 }
 
-.social-links a{
-   margin-right: 25px;
+.social-links a {
+    margin-right: 25px;
 }
 
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"],
+input[type="email"],
+textarea {
 
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
     color: #757575;
     border-radius: 5px;
-    background:  #FFF;
+    background: #FFF;
     border: 0;
     width: 100%;
 
@@ -237,72 +241,82 @@ footer{
 
 
 
-
-
 /* Responsive Styles */
 
 /* Mobile Devices */
 
-.hide{
+.hide {
     display: none;
 }
 
 @media screen and (max-width: 576px) {
 
-    .header{
+    .header {
         background-image: none;
     }
 
-    nav, nav > ul, .banner, .skills-container, .resume-container, .about-info-container, footer  {
+    nav,
+    nav>ul,
+    .banner,
+    .skills-container,
+    .resume-container,
+    .about-info-container,
+    footer {
         flex-direction: column;
     }
 
-    nav > ul{
+    nav>ul {
         gap: 20px;
     }
-    nav li{
+
+    nav li {
         list-style: none;
-       margin-right: 110px;
+        margin-right: 110px;
     }
-   .banner, #what-i-do-description{
+
+    .banner,
+    #what-i-do-description {
         padding: 20px;
     }
 
-    footer, .about{
+    footer,
+    .about {
         padding: 10px;
     }
 
 
-    .btn-primary{
+    .btn-primary {
         margin-bottom: 15px;
-        
+
     }
 
-    .footer-column{
+    .footer-column {
         width: 100%;
     }
-    
-    .contact input[type="text"], input[type="email"], textarea{
+
+    .contact input[type="text"],
+    input[type="email"],
+    textarea {
         width: 80%;
     }
 
-    .banner .profile-pic{
+    .banner .profile-pic {
         width: 100%;
-      
+
     }
 
-  
+
 }
 
-@media screen and (min-width: 576px) and (max-width: 960px){
-    .header{
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .header {
         background-image: none;
         margin: 0;
-        padding: 0; 
+        padding: 0;
         background-color: #ffffff;
     }
 
-    .btn-primary{
+    .btn-primary {
         border-radius: 5px;
         background: #FD6E0A;
         border: 0;
@@ -312,51 +326,54 @@ footer{
         padding: 15px 25px;
         margin-right: 10px;
         margin-left: -20px;
-       
-       
-    }
-    .about{
-        
-        border-radius: 10px;
-        background: #FFF8F3;
-         margin-top: 100px;
-         margin-left: 90px;
-         margin-right: -50px;
-         padding-left: 100px;
+
+
     }
 
-    .do{
+    .about {
+
+        border-radius: 10px;
+        background: #FFF8F3;
+        margin-top: 100px;
+        margin-left: 90px;
+        margin-right: -50px;
+        padding-left: 100px;
+    }
+
+    .do {
         margin-left: 60px;
     }
-    .summary{
+
+    .summary {
         margin-left: 60px;
     }
-   
-    footer{
+
+    footer {
         padding: 30px;
     }
 
-    .contents{
+    .contents {
         margin-left: 60px;
     }
 
-    .btn-primary{
+    .btn-primary {
         margin-bottom: 15px;
     }
 
-    .contact input[type="text"], input[type="email"], textarea{
+    .contact input[type="text"],
+    input[type="email"],
+    textarea {
 
         display: block;
         margin-bottom: 25px;
         padding: 18px 35px;
         color: #757575;
         border-radius: 5px;
-        background:  #FFF;
+        background: #FFF;
         border: 0;
         width: 60%;
-    
+
     }
 
 
-   
 }
