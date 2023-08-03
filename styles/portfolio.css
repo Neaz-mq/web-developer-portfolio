@@ -213,6 +213,10 @@ footer{
     width:50%;
 }
 
+.social-links{
+    text-align: center;
+}
+
 .social-links a{
    margin-right: 25px;
 }
@@ -332,8 +336,25 @@ footer{
         padding: 30px;
     }
 
+    .contents{
+        margin-left: 60px;
+    }
+
     .btn-primary{
         margin-bottom: 15px;
+    }
+
+    .contact input[type="text"], input[type="email"], textarea{
+
+        display: block;
+        margin-bottom: 25px;
+        padding: 18px 35px;
+        color: #757575;
+        border-radius: 5px;
+        background:  #FFF;
+        border: 0;
+        width: 60%;
+    
     }
 
 
